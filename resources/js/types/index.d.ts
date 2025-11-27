@@ -41,3 +41,12 @@ export interface User {
     updated_at: string;
     [key: string]: unknown; // This allows for additional properties...
 }
+
+export interface CrudItem {
+    id: number;
+    name: string;
+    description: string;
+    quantity: number;
+    created_at: string;
+    updated_at: string;
+}
